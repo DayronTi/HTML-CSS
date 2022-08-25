@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    background-color: antiquewhite;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+h1{
+    color: mediumorchid;
+    background-color: blueviolet;
+}
+
+h2{
+    color: mediumorchid;
+}
+
+p{
+    text-align: justify;
+}
+

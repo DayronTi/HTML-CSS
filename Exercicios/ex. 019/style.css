@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(pink 65%, white);
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(102, 12, 80, 0.767);
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-justify: auto;
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avancado {
+    color: red;
+}
