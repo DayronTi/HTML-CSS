@@ -18,7 +18,7 @@
 
 body {
     font-family: var(--fonte1);
-    max-height: 100vh;
+    min-height: 100vh;
     background-color: rgba(16, 63, 82, 0.603);
 }
 
@@ -54,7 +54,8 @@ article {
 }
 
 #container1 {
-    height: 100vh;
+    box-shadow: inset 5px 5px 13px 0px black;
+    padding: 30px;
     background-image: url('imagens/background001.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -63,14 +64,16 @@ article {
 
 #divjoaninha {
     display: inline-block;
-    text-align: center;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.63);
     font-family: var(--fonte3);
     color: white;
+    text-shadow: 2px 2px 0px black;
 }
 
 #container2 {
+    box-shadow: inset 5px 5px 13px 0px black;
+    padding: 30px;
     background-image: url('imagens/background002.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -83,6 +86,7 @@ article {
     font-family: var(--fonte3);
     color: white;
     background-color: rgba(0, 0, 0, 0.719);
+    text-shadow: 2px 2px 0px black;
 }
 
 footer {
